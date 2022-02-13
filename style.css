@@ -1,0 +1,66 @@
+@font-face {
+        font-family: 'NinjaNaruto-YOn4', Arial;
+        src:url('NinjaNaruto-YOn4.tff') format('truetype');
+}
+
+
+
+
+body {
+  
+
+
+background: linear-gradient(#CCB5FB, #C4D8F3)}
+
+
+.column {
+  float: left;
+  width: 55%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+.text1
+{position: relative;
+left:35px;
+right: 45px;}
+
+ {
+   box-sizing: border-box;
+   
+ }
+
+.outer-grid{ position: relative; 
+left: 120px;}
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+}
+.inner-grid {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 100%;
+   padding: 10px;
+}
+@media screen and (max-width: 200px) {
+   .inner-grid {
+      flex: 20%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 200px) {
+   .inner-grid {
+      flex: 30%;
+      max-width: 100%;
+   }
+
